@@ -1,0 +1,47 @@
+.inGame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.InforGameDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.quitGame {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a98c5c;
+  background-color: #ffe2b2;
+  border-radius: 5px;
+  width: 179px;
+  height: 42px;
+  max-width: 179px;
+  max-height: 42px;
+  border-style: none;
+  box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.09);
+  font-size: large;
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.avatarGamer {
+  background-color: #ffe2b2;
+  width: 100px;
+  max-width: 100px;
+  height: 34px;
+  max-height: 34px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.09);
+}
+.score {
+  color: #ad9161;
+}

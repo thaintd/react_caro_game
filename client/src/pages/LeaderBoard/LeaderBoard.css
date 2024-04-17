@@ -1,0 +1,30 @@
+#leader_board {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.leader-board {
+  max-height: 200px;
+}
+.leader-board_details {
+  height: 34px;
+  width: 400px;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe2b2;
+  padding: 4px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.leader-board_details_info {
+  display: flex;
+}
+.number_player {
+  background-color: #daaa96;
+  padding: 2px 4px;
+  border-radius: 6px;
+}
